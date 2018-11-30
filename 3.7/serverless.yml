@@ -1,0 +1,15 @@
+service: psycopg2-lambda-layer
+frameworkVersion: ">=1.34.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: python3.7
+
+# you can overwrite defaults here
+#  stage: dev
+#  region: us-east-1
+
+layers:
+  psycopg2:
+    buildScript: ./build.sh
+    path: layer
