@@ -13,3 +13,7 @@ layers:
   psycopg2:
     buildScript: ./build.sh
     path: layer
+    compatibleRuntimes:
+      - python3.7
+    allowedAccounts:
+      - '*'
