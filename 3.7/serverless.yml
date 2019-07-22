@@ -8,9 +8,11 @@ provider:
 
 layers:
   psycopg2-py37:
+    description: "psycopg2 python postgresql client library."
     buildScript: ./build.sh
     path: layer
     compatibleRuntimes:
       - python3.7
     allowedAccounts:
       - '*'
+    retain: true
