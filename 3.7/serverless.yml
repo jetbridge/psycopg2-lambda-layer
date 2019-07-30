@@ -5,6 +5,7 @@ provider:
   name: aws
   runtime: python3.7
   region: eu-central-1
+  profile: jb
 
 layers:
   psycopg2-py37:

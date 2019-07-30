@@ -16,7 +16,7 @@ functions:
       - arn:aws:lambda:ap-southeast-1:898466741470:layer:psycopg2-py37:1
       - arn:aws:lambda:us-east-1:898466741470:layer:psycopg2-py37:2
       - arn:aws:lambda:us-east-2:898466741470:layer:psycopg2-py37:1
-      - arn:aws:lambda:eu-west-1:178183757879:layer:psycopg2-py37:1
+      - arn:aws:lambda:eu-west-1:898466741470:layer:psycopg2-py37:1
       - arn:aws:lambda:ap-southeast-1:898466741470:layer:psycopg2-py37:5
 ```
 
