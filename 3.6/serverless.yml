@@ -17,3 +17,5 @@ layers:
       - python3.6
     allowedAccounts:
       - '*'
+    retain: true
+
