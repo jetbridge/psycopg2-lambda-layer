@@ -24,6 +24,7 @@ functions:
       - arn:aws:lambda:ap-southeast-1:898466741470:layer:psycopg2-py37:5
       - arn:aws:lambda:ap-southeast-2:898466741470:layer:psycopg2-py37:1
       - arn:aws:lambda:ca-central-1:898466741470:layer:psycopg2-py37:1
+      - arn:aws:lambda:ap-south-1:898466741470:layer:psycopg2-py37:1
 ```
 
 ## Regions
