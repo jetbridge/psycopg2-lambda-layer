@@ -1,0 +1,20 @@
+service: psycopg2-lambda-layer
+frameworkVersion: ">=1.34.0 <2.0.0"
+
+provider:
+  name: aws
+  runtime: python3.8
+  region: eu-central-1
+  profile: jb
+  stage: prod
+
+layers:
+  psycopg2-py38:
+    description: "psycopg2 python postgresql client library."
+    buildScript: ./build.sh
+    path: layer
+    compatibleRuntimes:
+      - python3.8
+    allowedAccounts:
+      - '*'
+    retain: true
