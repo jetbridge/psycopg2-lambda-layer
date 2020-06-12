@@ -11,6 +11,7 @@ functions:
       # py 3.6:
       - arn:aws:lambda:us-east-1:898466741470:layer:psycopg2-py36:3
       - arn:aws:lambda:eu-central-1:898466741470:layer:psycopg2-py36:2
+      - arn:aws:lambda:sa-east-1:898466741470:layer:psycopg2-py36:1
       # py 3.7:
       - arn:aws:lambda:eu-central-1:898466741470:layer:psycopg2-py37:6
       - arn:aws:lambda:ap-southeast-1:898466741470:layer:psycopg2-py37:1
