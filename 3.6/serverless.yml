@@ -1,5 +1,4 @@
 service: psycopg2-lambda-layer
-frameworkVersion: ">=1.34.0 <2.0.0"
 
 provider:
   name: aws
@@ -12,6 +11,7 @@ provider:
 
 layers:
   psycopg2-py36:
+    description: "psycopg2 python postgresql client library."
     buildScript: ./build.sh
     path: layer
     compatibleRuntimes:
@@ -19,4 +19,3 @@ layers:
     allowedAccounts:
       - '*'
     retain: true
-
