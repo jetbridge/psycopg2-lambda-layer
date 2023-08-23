@@ -8,7 +8,7 @@ provider:
   stage: prod
 
 layers:
-  psycopg2-py38:
+  psycopg2-py39:
     description: "psycopg2 python postgresql client library."
     buildScript: ./build.sh
     path: layer
