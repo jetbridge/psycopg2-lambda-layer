@@ -58,4 +58,8 @@ functions:
 ## Regions
 Please use the layer that matches your region, or you will get a permissions error.
 
-If you desire another region, please open an issue.
+## No longer maintained
+
+It turns out that providing public lambda layers is too unpleasant and buggy, so I recommend building your own layer and using it instead of publicly-provided layers.
+
+Maybe AWS will make managing public layers less painful some day.
